@@ -8,7 +8,8 @@
    <body>
       <p id="greeting">Hi!</p>
       <script>
-         p.innerHtml = 'Hello, DOM'
+         const greetingElement = document.getElementById('greeting')
+         greetingElement.textContent = 'Hello, DOM!'
       </script>
    </body>
 </html>
